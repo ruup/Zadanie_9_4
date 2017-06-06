@@ -1,5 +1,5 @@
-var drawTree = 5;
-  for (i = 0; i < drawTree ; i ++) {
+function drawTree (height) {
+  for (i = 1; i <= height ; i ++) {
     var star = "";
     
     for (j = 0; j < i  ; j ++){
@@ -7,3 +7,7 @@ var drawTree = 5;
     }
     console.log(star);
   }
+}
+drawTree(1);
+drawTree(2);
+drawTree(5);
